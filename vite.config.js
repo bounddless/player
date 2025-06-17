@@ -12,7 +12,12 @@ export default defineConfig({
     }
   },
   optimizeDeps: {
+<<<<<<< Updated upstream
     include: ['jsmediatags']
   }
 
+=======
+    include: ['jsmediatags'],
+  },
+>>>>>>> Stashed changes
 });
