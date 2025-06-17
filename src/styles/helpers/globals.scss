@@ -2,6 +2,12 @@
 @use '../variables' as *;
 @use './media' as *;
 
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 html {
     &.is-lok {
         overflow: hidden;
@@ -10,7 +16,6 @@ html {
 
 body {
     @include fluid-text(18, 14);
-
     display: flex;
     flex-direction: column;
     font-family: var(--font-family-base), serif;

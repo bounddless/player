@@ -1,14 +1,15 @@
-import { useState } from 'react'
 import("./styles/helpers/index.scss")
+import React from 'react';
+import AudioPlayer from './layouts/Player/Player.jsx';
+
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <div>
-        <h1>Hello World!</h1>
+    <div className="App">
+      <h1>Мой музыкальный плеер</h1>
+      <AudioPlayer />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
